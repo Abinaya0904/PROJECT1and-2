@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Students Registration Form</title>
+<style>
+     h1 {
+        color: red;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        
+        
+    }
+    
+    
+    *{
+       font-family: 'Times New Roman', Times, serif;
+       background-color: rgb(216, 217, 236); 
+       font-weight: bold;
+       
+    }
+    
+    .registerbtn {
+  background-color: #df1e28;
+  color: rgb(237, 235, 229);
+  padding: 10px 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 20px;
+  margin-left: 200px;
+  border-radius: 12px;
+
+}
+label {
+        display: inline-block;
+        width: 150px;
+      }
+legend {
+    font-size:18px;
+    font-weight:  bold;
+    font-style: italic;
+    position:  relative;
+    top:  -.4em;
+}
+u{
+   color:#df1e28;
+}
+</style>
+    </head>
+    <body>
+        
+       <u><h1>PSR ENGINEERING COLLEGE</h1></u> 
+        <form>
+            <fieldset>
+                <legend>STUDENTS REGISTRATION FORM</legend>
+           <label>FIRST NAME:</label>
+           <select name = "dropdown">
+            <option value = "be" selected>MR</option>
+            <option value = "me">MRS</option>
+            <option value = "me">MISS</option>
+         </select>
+           <input type="name" name="firstname"><br><br>
+           <label>LAST NAME:</label>
+           <input type="text" name="lastname"><br><br>
+           <label>DATE OF BIRTH:</label>
+           <input type="date" name="dob"> <br><br> 
+           <label>EMAIL:</label>
+           <input type="email"name="email"><br><br> 
+           <label>MOBILE NUMBER:</label>
+           <input type="text" name="mnumber" maxlength="10"><br><br>
+           <label>GENDER:</label>
+           <input type = "radio" name = "gender" value = "male"> MALE
+           <input type = "radio" name = "gender" value = "female"> FEMALE<br><br>
+           <label>COUNTRY:</label>
+           <input type="name" name="country"><br><br>
+           <label>STATE:</label>
+           <input type="name" name="state"><br><br>
+           <label>CITY/VILLAGE:</label>
+           <input type="name" name="city"><br><br>
+           <label>COURSES <br>APPLIED FOR:</label>
+           <input type = "checkbox" name = "courses" value ="cse"> BE(CSE)
+           <input type = "checkbox" name = "courses" value ="civil">BE(CIVIL) 
+           <input type = "checkbox" name = "courses" value = "ece">BE(ECE) 
+           <input type = "checkbox" name = "courses" value ="mech">BE(Mech)
+           <input type = "checkbox" name = "courses" value ="mba">MBA <br><br>
+           <label>ADDRESS:</label> <br>
+           <textarea rows = "5" cols = "50" name = "description">
+         </textarea><br>
+    <button type="submit" class="registerbtn">Register</button>
+
+        </form>
+    </body>
+</html>
